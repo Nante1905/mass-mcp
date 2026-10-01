@@ -1,0 +1,31 @@
+{
+  "name": "mass-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Serveur MCP de la plateforme MASS : expose l'API back-office aux agents LangGraph.",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "@types/pg": "^8.15.5",
+    "tsx": "^4.20.6",
+    "typescript": "^6.0.3"
+  }
+}
