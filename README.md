@@ -65,6 +65,7 @@ s'annonce indisponible, les sept autres outils restent utilisables.
 | `get_attendance_stats` | Postgres, rôle en lecture seule | non |
 | `get_finance_summary` | `GET /transactions/stats` | non |
 | `query_analytics` | Postgres, rôle en lecture seule | non |
+| `generate_graph` | rien — met en forme les données reçues | non |
 | `create_event_draft` | `POST /events` | brouillon |
 | `update_draft` | `GET` puis `PUT /events/:id` | brouillon |
 | `create_email_template` | `POST /communication/templates` | modèle, rien d'envoyé |

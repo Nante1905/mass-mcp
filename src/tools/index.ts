@@ -1,5 +1,6 @@
 import { registerCreateEmailTemplate } from "./createEmailTemplate.js";
 import { registerCreateEventDraft } from "./createEventDraft.js";
+import { registerGenerateGraph } from "./generateGraph.js";
 import { registerGetAttendanceStats } from "./getAttendanceStats.js";
 import { registerGetEventDetails } from "./getEventDetails.js";
 import { registerGetFinanceSummary } from "./getFinanceSummary.js";
@@ -30,6 +31,7 @@ export const TOOL_REGISTRARS: ToolRegistrar[] = [
   registerGetAttendanceStats,
   registerGetFinanceSummary,
   registerQueryAnalytics,
+  registerGenerateGraph,
   registerCreateEventDraft,
   registerUpdateDraft,
   registerCreateEmailTemplate,
