@@ -60,6 +60,7 @@ s'annonce indisponible, les sept autres outils restent utilisables.
 |---|---|---|
 | `list_events` | `GET /events` | non |
 | `get_event_details` | `GET /events/:id` + `/participations` | non |
+| `get_event_feedbacks` | `GET /events/:id` + `/feedbacks` + `/feedbacks/summary` | non |
 | `list_members` | `GET /members` | non |
 | `get_member_details` | `GET /members/:id` | non |
 | `get_attendance_stats` | Postgres, rôle en lecture seule | non |

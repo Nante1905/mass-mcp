@@ -3,6 +3,7 @@ import { registerCreateEventDraft } from "./createEventDraft.js";
 import { registerGenerateGraph } from "./generateGraph.js";
 import { registerGetAttendanceStats } from "./getAttendanceStats.js";
 import { registerGetEventDetails } from "./getEventDetails.js";
+import { registerGetEventFeedbacks } from "./getEventFeedbacks.js";
 import { registerGetFinanceSummary } from "./getFinanceSummary.js";
 import { registerGetMemberDetails } from "./getMemberDetails.js";
 import { registerListEvents } from "./listEvents.js";
@@ -26,6 +27,7 @@ import type { ToolRegistrar } from "./shared.js";
 export const TOOL_REGISTRARS: ToolRegistrar[] = [
   registerListEvents,
   registerGetEventDetails,
+  registerGetEventFeedbacks,
   registerListMembers,
   registerGetMemberDetails,
   registerGetAttendanceStats,
